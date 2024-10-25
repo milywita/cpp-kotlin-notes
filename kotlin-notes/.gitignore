@@ -1,9 +1,10 @@
 # Ignore everything by default
 *
 
-# Allow .kt and README.md files
-!*.kt
-!README.md
+# Allow directories and then include only .kt and README.md files within them
+!*/
+!**/*.kt
+!**/README.md
 
 # Ignore IntelliJ-specific files and directories
 .idea/
