@@ -1,8 +1,14 @@
 # Function Types in Kotlin
 
-Function types specify the input and output of a function, such as `(Int, Int) -> Int`. This tells us:
-- The function takes two `Int` inputs.
-- It returns an `Int`.
+A **function type** defines the structure of a function, specifying the types of its parameters and return type. For instance, the function type `(Int, Int) -> Int` represents a function that:
+- Accepts two `Int` parameters.
+- Returns an `Int`.
 
-### Example Code
-Check `FunctionTypesExample.kt` for an example of function types in action.
+This structure is useful when we want to:
+- Pass functions as arguments to other functions.
+- Store functions as values in variables.
+- Ensure type safety by matching functions to the expected parameter and return types.
+
+## Code Example
+
+Check `Main.kt` in this directory for a code example demonstrating function types in action.
