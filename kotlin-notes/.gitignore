@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Allow .kt and README.md files
+!*.kt
+!README.md
+
+# Ignore IntelliJ-specific files and directories
+.idea/
+*.iml
+out/
+build/
